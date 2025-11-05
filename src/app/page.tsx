@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -24,7 +24,7 @@ export default function Home() {
       cardStyle="layered-gradient"
       primaryButtonStyle="flat"
       secondaryButtonStyle="solid"
-      showBlurBottom={false}
+      showBlurBottom="false"
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
@@ -111,7 +111,6 @@ export default function Home() {
               role: "Classmate",
               company: "Tallinn High School",
               rating: 5,
-              content: "Mike is one of the most enthusiastic people I know! He's always talking about his latest Fortnite victories or his plans to visit Spain. His passion is contagious!",
               imageSrc: "https://images.pexels.com/photos/4143791/pexels-photo-4143791.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Anna Kask, Mike's classmate"
             },
@@ -121,7 +120,6 @@ export default function Home() {
               role: "Gaming Buddy",
               company: "Fortnite Squad",
               rating: 5,
-              content: "Playing with Mike is awesome! He's always pushing us to get better and never gives up, even when we're losing. Great teammate and friend.",
               imageSrc: "https://images.pexels.com/photos/8419648/pexels-photo-8419648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Erik Tamm, Mike's gaming friend"
             },
@@ -131,7 +129,6 @@ export default function Home() {
               role: "Sports Team",
               company: "School Athletics",
               rating: 5,
-              content: "Mike brings the same energy to sports that he does to everything else. He's competitive but fair, and always encourages the team to do their best.",
               imageSrc: "https://images.pexels.com/photos/5325701/pexels-photo-5325701.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Liisa Mänd, Mike's teammate"
             },
@@ -141,7 +138,6 @@ export default function Home() {
               role: "Study Partner",
               company: "Tallinn High School",
               rating: 5,
-              content: "Studying with Mike is fun because he always finds ways to connect our lessons to his interests. He makes everything more engaging and memorable.",
               imageSrc: "https://images.pexels.com/photos/4143791/pexels-photo-4143791.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Mart Saar, Mike's study buddy"
             }
